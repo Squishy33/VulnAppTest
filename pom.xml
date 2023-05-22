@@ -133,7 +133,7 @@
         <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
         <java.version>17</java.version>
         <thymeleaf.version>3.0.14.RELEASE</thymeleaf.version>
-        <pmd.version>3.15.0</pmd.version>
+        <pmd.version>3.21.0</pmd.version>
         <checkstyle.version>3.1.2</checkstyle.version>
     </properties>
 
