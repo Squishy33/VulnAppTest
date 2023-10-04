@@ -53,6 +53,8 @@ WebWolf will be located at: http://localhost:9090/WebWolf
 **Important**: *Choose the correct timezone, so that the docker container and your host are in the same timezone. As it is important for the validity of JWT tokens used in certain exercises.*
 
 
+
+
 ## 2. Standalone
 
 Download the latest WebGoat and WebWolf release from [https://github.com/WebGoat/WebGoat/releases](https://github.com/WebGoat/WebGoat/releases)
