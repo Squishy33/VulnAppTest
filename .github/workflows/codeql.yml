@@ -88,7 +88,7 @@ jobs:
         distribution: temurin
 
     - name: Autobuild
-      uses: github/codeql-action/autobuild@v3
+      uses: github/codeql-action/autobuild@v4
                 
 
     # If the analyze step fails for one of the languages you are analyzing with
