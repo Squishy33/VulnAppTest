@@ -80,12 +80,7 @@ jobs:
         # For more details on CodeQL's query packs, refer to: https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
         # queries: security-extended,security-and-quality
 
-    - name: Setup Java JDK
-      uses: actions/setup-java@v5.2.0
-      with:
-        # The Java version to set up. Takes a whole or semver Java version. See examples of supported syntax in README file
-        java-version: 17
-        distribution: temurin
+
 
     - name: Autobuild
       uses: github/codeql-action/autobuild@v4
