@@ -11,17 +11,17 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    target-branch: feature/dependabot
+    target-branch: "feature/dependabot"
       
    
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily" 
-    target-branch: feature/dependabot
+    target-branch: "feature/dependabot"
 
   - package-ecosystem: "docker" # See documentation for possible values
     directory: "/docker/" # Location of package manifests
     schedule:
       interval: "daily"
-    target-branch: feature/dependabot
+    target-branch: "feature/dependabot"
