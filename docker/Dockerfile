@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17_35-jdk-focal
+FROM eclipse-temurin:19_36-jdk-focal
 
 RUN apt-get update
 RUN useradd -ms /bin/bash webgoat
